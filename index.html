@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebijakan Privasi – Bantu UMKM</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #f9f9f9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      background: #fff;
+      box-shadow: 0 2px 12px rgba(0,0,0,.06);
+    }
+    header {
+      border-bottom: 3px solid #1565C0;
+      padding-bottom: 20px;
+      margin-bottom: 32px;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #1565C0;
+      margin-bottom: 6px;
+    }
+    header p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      color: #1565C0;
+      margin: 36px 0 10px;
+      padding-left: 12px;
+      border-left: 4px solid #1565C0;
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 18px 0 6px;
+      color: #333;
+    }
+    p { margin-bottom: 12px; }
+    ul {
+      margin: 8px 0 12px 20px;
+    }
+    ul li { margin-bottom: 6px; }
+    a { color: #1565C0; }
+    .highlight {
+      background: #E3F2FD;
+      border-left: 4px solid #1565C0;
+      padding: 12px 16px;
+      border-radius: 0 4px 4px 0;
+      margin: 16px 0;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+      color: #777;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Kebijakan Privasi</h1>
+    <p>Aplikasi <strong>Bantu UMKM</strong> &nbsp;|&nbsp; Berlaku efektif: 1 Juni 2026</p>
+  </header>
+
+  <p>
+    Selamat datang di <strong>Bantu UMKM</strong>. Kami menghormati privasi Anda dan berkomitmen
+    untuk melindungi data pribadi yang Anda percayakan kepada kami. Kebijakan Privasi ini menjelaskan
+    informasi apa yang kami kumpulkan, bagaimana kami menggunakannya, dan hak-hak Anda sebagai pengguna.
+  </p>
+  <p>
+    Dengan menggunakan aplikasi ini, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini.
+    Jika Anda tidak setuju, harap hentikan penggunaan aplikasi.
+  </p>
+
+  <!-- 1 -->
+  <h2>1. Data yang Anda Masukkan dan Penyimpanan Lokal</h2>
+  <div class="highlight">
+    <strong>Semua data bisnis Anda disimpan sepenuhnya di perangkat Anda sendiri</strong> — tidak ada
+    data transaksi, produk, pelanggan, atau keuangan yang dikirim ke server kami.
+  </div>
+  <p>
+    Aplikasi Bantu UMKM menggunakan database lokal (SQLite/Room) yang tersimpan di memori internal
+    perangkat Anda. Data tersebut meliputi:
+  </p>
+  <ul>
+    <li>Data produk, bahan baku, dan layanan</li>
+    <li>Data transaksi penjualan dan pembelian</li>
+    <li>Data pemasok dan informasi bisnis lainnya</li>
+    <li>Laporan dan kalkulasi keuangan</li>
+  </ul>
+  <p>
+    Data ini sepenuhnya berada di bawah kendali Anda. Jika aplikasi dihapus (uninstall),
+    seluruh data lokal akan ikut terhapus dari perangkat Anda.
+  </p>
+
+  <!-- 2 -->
+  <h2>2. Fitur Backup ke Google Drive (Opsional)</h2>
+  <p>
+    Aplikasi menyediakan fitur <strong>backup dan pemulihan data secara opsional</strong> menggunakan
+    Google Drive. Fitur ini hanya aktif jika Anda memilih untuk menggunakannya.
+  </p>
+  <h3>Proses login Google</h3>
+  <p>
+    Untuk menggunakan fitur backup, Anda perlu masuk menggunakan akun Google Anda.
+    Proses autentikasi ini ditangani langsung oleh layanan Google (Google Sign-In) — kami
+    <strong>tidak pernah</strong> menyimpan kata sandi atau token akses Anda di server kami.
+  </p>
+  <h3>Data yang dikirim ke Google Drive</h3>
+  <p>
+    Saat Anda melakukan backup, salinan terenkripsi dari database lokal Anda akan diunggah ke
+    folder privat aplikasi di Google Drive Anda sendiri. Data ini <strong>hanya dapat diakses
+    oleh Anda</strong> melalui akun Google yang sama.
+  </p>
+  <p>
+    Penggunaan data dari Google Drive tunduk pada
+    <a href="https://policies.google.com/privacy" target="_blank">Kebijakan Privasi Google</a>.
+  </p>
+
+  <!-- 3 -->
+  <h2>3. Firebase Analytics</h2>
+  <p>
+    Kami menggunakan <strong>Firebase Analytics</strong> (layanan Google) untuk memahami cara
+    pengguna berinteraksi dengan aplikasi. Data yang dikumpulkan bersifat anonim dan agregat,
+    meliputi:
+  </p>
+  <ul>
+    <li>Halaman atau fitur yang dikunjungi</li>
+    <li>Durasi sesi penggunaan aplikasi</li>
+    <li>Jenis perangkat, versi sistem operasi, dan bahasa</li>
+    <li>Negara/wilayah pengguna (berdasarkan IP, tidak disimpan)</li>
+    <li>Kejadian (event) tertentu dalam aplikasi yang kami definisikan</li>
+  </ul>
+  <p>
+    Data analytics <strong>tidak mengandung informasi bisnis</strong> yang Anda masukkan ke aplikasi.
+    Firebase Analytics menggunakan ID perangkat anonim. Anda dapat menonaktifkan pengumpulan data
+    analytics melalui pengaturan Google di perangkat Anda.
+  </p>
+  <p>
+    Informasi lebih lanjut:
+    <a href="https://firebase.google.com/support/privacy" target="_blank">Privasi Firebase Google</a>.
+  </p>
+
+  <!-- 4 -->
+  <h2>4. Firebase Crashlytics</h2>
+  <p>
+    Kami menggunakan <strong>Firebase Crashlytics</strong> untuk mendeteksi dan memperbaiki
+    kesalahan (crash/error) pada aplikasi. Ketika aplikasi mengalami crash, laporan otomatis
+    dikirim yang berisi:
+  </p>
+  <ul>
+    <li>Stack trace (jejak kesalahan teknis)</li>
+    <li>Jenis perangkat dan versi sistem operasi</li>
+    <li>Versi aplikasi yang digunakan</li>
+    <li>Waktu terjadinya crash</li>
+    <li>Status memori dan CPU perangkat saat crash</li>
+  </ul>
+  <p>
+    Laporan crash <strong>tidak mengandung data pribadi atau data bisnis</strong> yang Anda simpan
+    dalam aplikasi. Laporan ini semata-mata digunakan untuk meningkatkan stabilitas aplikasi.
+  </p>
+
+  <!-- 5 -->
+  <h2>5. Firebase Remote Config</h2>
+  <p>
+    Kami menggunakan <strong>Firebase Remote Config</strong> untuk mengonfigurasi perilaku aplikasi
+    dari jarak jauh tanpa perlu memperbarui versi aplikasi. Fitur ini digunakan untuk:
+  </p>
+  <ul>
+    <li>Mengaktifkan atau menonaktifkan fitur tertentu</li>
+    <li>Menyesuaikan tampilan atau konten aplikasi</li>
+    <li>Pengumuman pembaruan penting</li>
+  </ul>
+  <p>
+    Remote Config tidak mengumpulkan data pribadi Anda — ia hanya mengirimkan konfigurasi
+    dari server kami ke aplikasi Anda.
+  </p>
+
+  <!-- 6 -->
+  <h2>6. Iklan (Google AdMob)</h2>
+  <p>
+    Aplikasi versi gratis menampilkan iklan melalui <strong>Google AdMob</strong>.
+    Untuk menampilkan iklan yang relevan, AdMob dapat mengumpulkan dan menggunakan:
+  </p>
+  <ul>
+    <li>ID Iklan (Advertising ID) perangkat Anda</li>
+    <li>Informasi perangkat (model, OS, bahasa)</li>
+    <li>Lokasi perkiraan berdasarkan jaringan (bukan GPS)</li>
+    <li>Data interaksi dengan iklan (klik, tayangan)</li>
+    <li>Minat dan preferensi berdasarkan aktivitas di aplikasi Google lainnya</li>
+  </ul>
+  <p>
+    Anda dapat mengontrol iklan yang dipersonalisasi melalui pengaturan Privasi di perangkat Anda
+    (<em>Setelan &gt; Google &gt; Iklan</em>). Untuk menonaktifkan iklan sepenuhnya, Anda dapat
+    membeli fitur <strong>"Hapus Iklan"</strong> yang tersedia dalam aplikasi.
+  </p>
+  <p>
+    Informasi lebih lanjut tentang cara Google menggunakan data untuk iklan:
+    <a href="https://policies.google.com/technologies/ads" target="_blank">Kebijakan Iklan Google</a>.
+  </p>
+
+  <!-- 7 -->
+  <h2>7. Pembelian Dalam Aplikasi (Google Play Billing)</h2>
+  <p>
+    Aplikasi ini menawarkan pembelian dalam aplikasi (in-app purchase) melalui
+    <strong>Google Play Billing</strong>, seperti fitur "Hapus Iklan". Semua transaksi pembayaran
+    diproses sepenuhnya oleh Google Play — kami <strong>tidak menyimpan</strong> informasi kartu
+    kredit atau detail pembayaran Anda. Data pembelian tunduk pada
+    <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank">
+    Kebijakan Privasi Google Payments</a>.
+  </p>
+
+  <!-- 8 -->
+  <h2>8. Kamera dan Pemindai Barcode</h2>
+  <p>
+    Aplikasi meminta izin akses kamera untuk fitur <strong>pemindaian barcode produk</strong>
+    menggunakan ML Kit Google. Kamera hanya aktif saat Anda secara eksplisit membuka fitur
+    pemindai. Kami <strong>tidak merekam, menyimpan, atau mengunggah</strong> gambar atau video
+    dari kamera Anda ke server manapun. Pemrosesan barcode dilakukan sepenuhnya di perangkat
+    secara lokal (on-device).
+  </p>
+
+  <!-- 9 -->
+  <h2>9. Notifikasi</h2>
+  <p>
+    Dengan izin Anda, aplikasi dapat mengirimkan notifikasi lokal untuk:
+  </p>
+  <ul>
+    <li>Pengingat tugas dan aktivitas bisnis</li>
+    <li>Pemberitahuan backup otomatis selesai</li>
+    <li>Informasi pembaruan aplikasi</li>
+  </ul>
+  <p>
+    Notifikasi ini dihasilkan dan dikelola sepenuhnya di perangkat Anda. Anda dapat
+    menonaktifkan notifikasi kapan saja melalui pengaturan perangkat.
+  </p>
+
+  <!-- 10 -->
+  <h2>10. Data yang Tidak Kami Kumpulkan</h2>
+  <p>Kami secara tegas menyatakan bahwa kami <strong>tidak</strong>:</p>
+  <ul>
+    <li>Mengumpulkan atau menyimpan data transaksi, produk, atau keuangan Anda di server kami</li>
+    <li>Menjual data Anda kepada pihak ketiga</li>
+    <li>Mengumpulkan nama, alamat email, nomor telepon, atau identitas pribadi Anda
+        (kecuali yang diberikan sukarela untuk keperluan dukungan)</li>
+    <li>Melacak lokasi GPS Anda</li>
+    <li>Mengakses kontak, galeri foto, atau file lain di luar kebutuhan fitur yang Anda aktifkan</li>
+  </ul>
+
+  <!-- 11 -->
+  <h2>11. Berbagi Data dengan Pihak Ketiga</h2>
+  <p>Kami tidak menjual data Anda. Data hanya dibagikan kepada layanan pihak ketiga berikut
+  semata-mata untuk menjalankan fungsi aplikasi:</p>
+  <ul>
+    <li><strong>Google LLC</strong> — Firebase Analytics, Crashlytics, Remote Config, AdMob,
+        Google Drive API, Google Sign-In, Google Play Billing, ML Kit</li>
+  </ul>
+  <p>
+    Semua layanan Google di atas tunduk pada
+    <a href="https://policies.google.com/privacy" target="_blank">Kebijakan Privasi Google</a>.
+  </p>
+
+  <!-- 12 -->
+  <h2>12. Keamanan Data</h2>
+  <p>
+    Kami mengambil langkah-langkah teknis yang wajar untuk melindungi data Anda:
+  </p>
+  <ul>
+    <li>Data bisnis hanya tersimpan lokal di perangkat Anda dan dilindungi oleh sistem keamanan
+        Android (sandboxing aplikasi)</li>
+    <li>Komunikasi dengan layanan Google menggunakan enkripsi HTTPS/TLS</li>
+    <li>File backup di Google Drive dilindungi oleh izin akses akun Google Anda</li>
+  </ul>
+  <p>
+    Meskipun demikian, tidak ada metode transmisi atau penyimpanan yang 100% aman.
+    Kami mendorong Anda untuk menggunakan PIN/password/biometrik di perangkat Anda
+    untuk lapisan perlindungan tambahan.
+  </p>
+
+  <!-- 13 -->
+  <h2>13. Privasi Anak-Anak</h2>
+  <p>
+    Aplikasi Bantu UMKM ditujukan untuk pengguna berusia <strong>13 tahun ke atas</strong>
+    (atau sesuai batas usia minimum di negara Anda). Kami tidak secara sengaja mengumpulkan
+    data dari anak-anak di bawah usia tersebut. Jika Anda mengetahui bahwa anak di bawah umur
+    telah memberikan data pribadi kepada kami, harap hubungi kami agar kami dapat mengambil
+    tindakan yang sesuai.
+  </p>
+
+  <!-- 14 -->
+  <h2>14. Hak Anda sebagai Pengguna</h2>
+  <p>Anda memiliki hak untuk:</p>
+  <ul>
+    <li><strong>Mengakses</strong> — Data bisnis Anda sepenuhnya tersedia dan dapat dilihat
+        langsung di aplikasi</li>
+    <li><strong>Menghapus</strong> — Menghapus data dari aplikasi kapan saja, atau uninstall
+        aplikasi untuk menghapus semua data lokal</li>
+    <li><strong>Memindahkan</strong> — Mengekspor data bisnis Anda melalui fitur ekspor
+        yang tersedia</li>
+    <li><strong>Membatasi</strong> — Menonaktifkan iklan yang dipersonalisasi atau Analytics
+        melalui pengaturan Google di perangkat Anda</li>
+    <li><strong>Mencabut akses backup</strong> — Mencabut izin akses Google Drive kapan saja
+        melalui pengaturan akun Google Anda di
+        <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a></li>
+  </ul>
+
+  <!-- 15 -->
+  <h2>15. Retensi Data</h2>
+  <p>
+    Data lokal disimpan selama aplikasi terpasang di perangkat Anda. Data backup di Google Drive
+    disimpan sesuai kebijakan penyimpanan Google Drive Anda sendiri — Anda dapat menghapusnya
+    kapan saja langsung dari Google Drive. Data anonim yang dikumpulkan oleh Firebase disimpan
+    sesuai kebijakan retensi Firebase (umumnya 2 bulan hingga 14 bulan tergantung jenis data).
+  </p>
+
+  <!-- 16 -->
+  <h2>16. Perubahan Kebijakan Privasi</h2>
+  <p>
+    Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan signifikan akan
+    diinformasikan melalui notifikasi di dalam aplikasi atau pembaruan versi aplikasi.
+    Tanggal "Berlaku efektif" di bagian atas halaman ini akan selalu mencerminkan versi terbaru.
+    Kami mendorong Anda untuk meninjau kebijakan ini secara berkala.
+  </p>
+  <p>
+    Penggunaan berkelanjutan terhadap aplikasi setelah perubahan kebijakan berlaku dianggap
+    sebagai persetujuan Anda terhadap kebijakan yang diperbarui.
+  </p>
+
+  <!-- 17 -->
+  <h2>17. Hubungi Kami</h2>
+  <p>
+    Jika Anda memiliki pertanyaan, keberatan, atau permintaan terkait privasi dan data Anda,
+    silakan hubungi kami melalui:
+  </p>
+  <ul>
+    <li>Email: <a href="mailto:najibbudinabdullah@gmail.com">najibbudinabdullah@gmail.com</a></li>
+  </ul>
+  <p>
+    Kami akan berusaha merespons dalam waktu 7 hari kerja.
+  </p>
+
+  <footer>
+    <p>
+      &copy; 2026 Bantu UMKM. Seluruh hak cipta dilindungi undang-undang.<br />
+      Kebijakan ini berlaku untuk aplikasi <strong>Bantu UMKM</strong> di platform Android.
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>
